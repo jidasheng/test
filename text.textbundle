@@ -1,0 +1,29 @@
+Charts
+
+# Flowchart
+### Syntax
+[Mermaid](https://mermaid-js.github.io/mermaid/#/flowchart?id=node-shapes)
+
+### shape
+![](assets/16436152538515.jpg)
+
+- [SmartDraw](https://www.smartdraw.com/flowchart/flowchart-symbols.htm)
+- [RFFlow](https://www.rff.com/flowchart_shapes.php)
+
+# Echarts
+- [examples](https://echarts.apache.org/examples/zh/index.html)
+```echarts
+option = {
+    xAxis: {
+        type: 'category',
+        data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+    },
+    yAxis: {
+        type: 'value'
+    },
+    series: [{
+        data: [820, 932, 901, 934, 1290, 1330, 1320],
+        type: 'line'
+    }]
+}
+```
